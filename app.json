@@ -3,12 +3,18 @@
     "name": "amazon-clone",
     "slug": "amazon-clone",
     "version": "1.0.0",
+    "extra": {
+      "myURL": "fred",
+      "eas": {
+        "projectId": "d98084c3-052c-4a9e-95b0-08a0bd99f667"
+      }
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -21,7 +27,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bigchopper.amazonclone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
