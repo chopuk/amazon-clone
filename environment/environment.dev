@@ -4,7 +4,7 @@ const environments = {
         ANOTHER_VARIABLE: 'chelsea'
     },
     production: {
-        URL_PREFIX: 'https://chops-file-server.onrender.com',
+        URL_PREFIX: 'https://chops-stripe-server.onrender.com',
         ANOTHER_VARIABLE: 'liverpool'
     }
 }

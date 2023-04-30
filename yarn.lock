@@ -1348,6 +1348,22 @@
     "semver" "7.3.2"
     "xml2js" "0.4.23"
 
+"@expo/prebuild-config@6.0.1":
+  "integrity" "sha512-WK3FDht1tdXZGCvtG5s7HSwzhsc7Tyu2DdqV9jVUsLtGD42oqUepk13mEWlU9LOTBgLsoEueKjoSK4EXOXFctw=="
+  "resolved" "https://registry.npmjs.org/@expo/prebuild-config/-/prebuild-config-6.0.1.tgz"
+  "version" "6.0.1"
+  dependencies:
+    "@expo/config" "~8.0.0"
+    "@expo/config-plugins" "~6.0.0"
+    "@expo/config-types" "^48.0.0"
+    "@expo/image-utils" "0.3.22"
+    "@expo/json-file" "^8.2.37"
+    "debug" "^4.3.1"
+    "fs-extra" "^9.0.0"
+    "resolve-from" "^5.0.0"
+    "semver" "7.3.2"
+    "xml2js" "0.4.23"
+
 "@expo/rudder-sdk-node@1.1.1":
   "integrity" "sha512-uy/hS/awclDJ1S88w9UGpc6Nm9XnNUjzOAAib1A3PVAnGQIwebg8DpFqOthFBTlZxeuV/BKbZ5jmTbtNZkp1WQ=="
   "resolved" "https://registry.npmjs.org/@expo/rudder-sdk-node/-/rudder-sdk-node-1.1.1.tgz"
@@ -3525,6 +3541,11 @@
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.369.tgz"
   "version" "1.4.369"
 
+"email-validator@^2.0.4":
+  "integrity" "sha512-gYCwo7kh5S3IDyZPLZf6hSS0MnZT8QmJFqYvbqlDZSbwdZlY6QZWxJ4i/6UhITOJ4XzyI647Bm2MXKCLqnJ4nQ=="
+  "resolved" "https://registry.npmjs.org/email-validator/-/email-validator-2.0.4.tgz"
+  "version" "2.0.4"
+
 "emoji-regex@^8.0.0":
   "integrity" "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
@@ -3729,13 +3750,13 @@
   "resolved" "https://registry.npmjs.org/expo-secure-store/-/expo-secure-store-12.1.1.tgz"
   "version" "12.1.1"
 
-"expo-splash-screen@^0.18.1":
-  "integrity" "sha512-1di1kuh14likGUs3fyVZWAqEMxhmdAjpmf9T8Qk5OzUa5oPEMEDYB2e2VprddWnJNBVVe/ojBDSCY8w56/LS0Q=="
-  "resolved" "https://registry.npmjs.org/expo-splash-screen/-/expo-splash-screen-0.18.1.tgz"
-  "version" "0.18.1"
+"expo-splash-screen@^0.18.2":
+  "integrity" "sha512-fsiKmyn/lbJtV6Uor6wSvl21fScOidFzmB/HHShQJJOu2TBN/vqMvhPu/r0bF5NVk8Wi64r98hiWY1EEsbW03w=="
+  "resolved" "https://registry.npmjs.org/expo-splash-screen/-/expo-splash-screen-0.18.2.tgz"
+  "version" "0.18.2"
   dependencies:
     "@expo/configure-splash-screen" "^0.6.0"
-    "@expo/prebuild-config" "6.0.0"
+    "@expo/prebuild-config" "6.0.1"
 
 "expo-status-bar@~1.4.4":
   "integrity" "sha512-5DV0hIEWgatSC3UgQuAZBoQeaS9CqeWRZ3vzBR9R/+IUD87Adbi4FGhU10nymRqFXOizGsureButGZIXPs7zEA=="
@@ -6246,10 +6267,10 @@
     "prop-types" "^15.7.2"
     "yargs" "^16.1.1"
 
-"react-native@*", "react-native@0.71.6":
-  "integrity" "sha512-gHrDj7qaAaiE41JwaFCh3AtvOqOLuRgZtHKzNiwxakG/wvPAYmG73ECfWHGxjxIx/QT17Hp37Da3ipCei/CayQ=="
-  "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.71.6.tgz"
-  "version" "0.71.6"
+"react-native@*", "react-native@^0.71.7":
+  "integrity" "sha512-Id6iRLS581fJMFGbBl1jP5uSmjExtGOvw5Gvh7694zISXjsRAsFMmU+izs0pyCLqDBoHK7y4BT7WGPGw693nYw=="
+  "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.71.7.tgz"
+  "version" "0.71.7"
   dependencies:
     "@jest/create-cache-key-function" "^29.2.1"
     "@react-native-community/cli" "10.2.2"

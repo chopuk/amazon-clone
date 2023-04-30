@@ -4,10 +4,10 @@ const environments = {
         ANOTHER_VARIABLE: 'chelsea'
     },
     production: {
-        URL_PREFIX: 'https://chops-file-server.onrender.com',
+        URL_PREFIX: 'https://chops-stripe-server.onrender.com',
         ANOTHER_VARIABLE: 'liverpool'
     }
 }
 
-const env = environments.development // change this line as needed and import environment.js where needed
+const env = environments.production // change this line as needed and import environment.js where needed
 export default env

@@ -1,0 +1,186 @@
+[
+  {
+    "title": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "cleanarchitecture.jpg",
+    "images": [
+      "cleanarchitecture.jpg"
+    ],
+    "options": [
+      "Hardback",
+      "Softback",
+      "Digital Download"
+    ],
+    "avgRating": 4.2,
+    "ratings": 1325,
+    "price": 20.98,
+    "oldPrice": 24.06,
+    "productid": "Book001UK"
+  },
+  {
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class, aenean non a in donec nulla.",
+    "image": "cleancode.jpg",
+    "images": [
+      "cleancode.jpg"
+    ],
+    "options": [
+      "Hardback",
+      "Softback"
+    ],
+    "avgRating": 2.2,
+    "ratings": 500,
+    "price": 32.98,
+    "productid": "Book002UK"
+  },
+  {
+    "title": "New 2021 Imac - Go On Treat Yourself To This Pile Of Shit",
+    "description": "Arcu risus habitant magnis purus sem tempor lacus netus eros, a ornare accumsan feugiat nostra in dis mi, litora ultricies facilisis.",
+    "image": "imac1.jpg",
+    "images": [
+      "imac1.jpg"
+    ],
+    "options": [
+      "16GB",
+      "32GB",
+      "64GB",
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "avgRating": 3.3,
+    "ratings": 234,
+    "price": 56.88,
+    "oldPrice": 129.06,
+    "productid": "MacBook001UK"
+  },
+  {
+    "title": "Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard",
+    "description": "Turpis sociis fermentum dis sollicitudin faucibus libero, vitae eget sodales lacus in.",
+    "image": "keyboard1.jpg",
+    "images": [
+      "keyboard1.jpg",
+      "keyboard2.jpg"
+    ],
+    "options": [
+      "Red Keys",
+      "Blue Keys",
+      "Black Keys"
+    ],
+    "avgRating": 1.2,
+    "ratings": 23557,
+    "price": 101.66,
+    "oldPrice": 120.00,
+    "productid": "KB001UK"
+  },
+  {
+    "title": "Logitech MX Master 3 Advanced Wireless Mouse for Mac - Bluetooth/USB",
+    "description": "Morbi lacinia malesuada auctor nascetur mi facilisi platea risus, pharetra phasellus volutpat libero torquent parturient ac commodo, quisque montes massa primis.",
+    "image": "mouse1.jpg",
+    "images": [
+      "mouse1.jpg",
+      "mouse2.jpg",
+      "mouse3.jpg"
+    ],
+    "options": [
+      "Dirty Black",
+      "Mint Green",
+      "Brilliant Blue",
+      "Girly Pink"
+    ],
+    "avgRating": 2.6,
+    "ratings": 666,
+    "price": 76.44,
+    "oldPrice": 82.22,
+    "productid": "Mouse001UK"
+  },
+  {
+    "title": "The Mother Of All Motherboards",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus.",
+    "image": "board1.jpg",
+    "images": [
+      "board1.jpg",
+      "board2.jpg"
+    ],
+    "options": [
+      "RGB",
+      "Non RGB",
+      "Pro"
+    ],
+    "avgRating": 4.6,
+    "ratings": 453,
+    "price": 122.99,
+    "oldPrice": 145.99,
+    "productid": "Board004UK"
+  },
+  {
+    "title": "128GB RAM Stick",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis auctor elit sed vulputate. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae.",
+    "image": "ram4.jpg",
+    "images": [
+      "ram1.jpg",
+      "ram2.jpg",
+      "ram3.jpg",
+      "ram4.jpg"
+    ],
+    "options": [
+      "Dirty Black",
+      "Mint Green",
+      "Brilliant Blue",
+      "Girly Pink"
+    ],
+    "avgRating": 1.6,
+    "ratings": 1024,
+    "price": 80.00,
+    "oldPrice": 87.22,
+    "productid": "Ram001UK"
+  },
+  {
+    "title": "All In One Cooler By Big Chopper",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus integer feugiat scelerisque varius.",
+    "image": "cooler1.jpg",
+    "images": [
+      "cooler1.jpg",
+      "cooler2.jpg",
+      "cooler3.jpg"
+    ],
+    "avgRating": 4.6,
+    "ratings": 22,
+    "price": 123.45,
+    "productid": "Cooler334UK"
+  },
+  {
+    "title": "Mega CPU from Amit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem nulla pharetra diam sit. Porttitor leo a diam sollicitudin tempor id eu nisl. Arcu non sodales neque sodales ut etiam sit.",
+    "image": "cpu1.jpg",
+    "images": [
+      "cpu1.jpg",
+      "cpu2.jpg"
+    ],
+    "options": [
+      "4.2GHz",
+      "4.6GHz",
+      "5.0GHz",
+      "6.6GHz"
+    ],
+    "avgRating": 4.8,
+    "ratings": 489,
+    "price": 345.99,
+    "oldPrice": 600.00,
+    "productid": "Cpu001UK"
+  },
+  {
+    "title": "Casemaster Super Build Guaranteed",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "image": "case1.jpg",
+    "images": [
+      "case1.jpg",
+      "case2.jpg"
+    ],
+    "avgRating": 2.8,
+    "ratings": 12345,
+    "price": 234.50,
+    "oldPrice": 250.00,
+    "productid": "Case001UK"
+  }
+]

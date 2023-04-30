@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleanarchitecture.jpg",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleanarchitecture.jpg"
+    ],
+    "options": [
+      "Hardback",
+      "Softback",
+      "Digital Download"
+    ],
+    "avgRating": 4.2,
+    "ratings": 1325,
+    "price": 20.98,
+    "oldPrice": 24.06,
+    "productid": "Book001UK"
+  },
+  {
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class, aenean non a in donec nulla.",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleancode.jpg",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleancode.jpg"
+    ],
+    "options": [
+      "Hardback",
+      "Softback"
+    ],
+    "avgRating": 2.2,
+    "ratings": 500,
+    "price": 32.98,
+    "productid": "Book002UK"
+  },
+  {
+    "title": "New 2021 Imac - Go On Treat Yourself To This Pile Of Shit",
+    "description": "Arcu risus habitant magnis purus sem tempor lacus netus eros, a ornare accumsan feugiat nostra in dis mi, litora ultricies facilisis.",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/imac1.jpg",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/imac1.jpg"
+    ],
+    "options": [
+      "16GB",
+      "32GB",
+      "64GB",
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "avgRating": 3.3,
+    "ratings": 234,
+    "price": 56.88,
+    "oldPrice": 129.06,
+    "productid": "MacBook001UK"
+  },
+  {
+    "title": "Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard",
+    "description": "Turpis sociis fermentum dis sollicitudin faucibus libero, vitae eget sodales lacus in.",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard2.jpg"
+    ],
+    "options": [
+      "Red Keys",
+      "Blue Keys",
+      "Black Keys"
+    ],
+    "avgRating": 1.2,
+    "ratings": 23557,
+    "price": 101.66,
+    "oldPrice": 120.00,
+    "productid": "KB001UK"
+  },
+  {
+    "title": "Logitech MX Master 3 Advanced Wireless Mouse for Mac - Bluetooth/USB",
+    "description": "Morbi lacinia malesuada auctor nascetur mi facilisi platea risus, pharetra phasellus volutpat libero torquent parturient ac commodo, quisque montes massa primis.",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg",
+    "images": [
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg",
+      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse3.jpg"
+    ],
+    "options": [
+      "Dirty Black",
+      "Mint Green",
+      "Brilliant Blue",
+      "Girly Pink"
+    ],
+    "avgRating": 2.6,
+    "ratings": 666,
+    "price": 76.44,
+    "oldPrice": 82.22,
+    "productid": "Mouse001UK"
+  }
+]

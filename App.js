@@ -1,13 +1,23 @@
 import React, { useEffect, useState } from 'react'
 import { StatusBar } from 'expo-status-bar'
-import { Alert, Button, StyleSheet, Text, View } from 'react-native'
-import ENVIRONMENT from './environment'
+import { Alert } from 'react-native'
+import ENVIRONMENT from './environment/environment'
 import * as SplashScreen from 'expo-splash-screen'
+import AuthNavigation from './AuthNavigation'
+import * as SecureStore from 'expo-secure-store'
+import { StripeProvider } from '@stripe/stripe-react-native'
+import { auth } from './firebase'
+import { signInWithEmailAndPassword } from 'firebase/auth'
 
 // keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync()
 
 export default function App() {
+
+  // display the splash screen for 1 second...
+  setTimeout(async () => {
+    await SplashScreen.hideAsync()
+  }, 2000)
 
   const [secureKeys,setSecureKeys] = useState()
 
@@ -31,35 +41,34 @@ export default function App() {
       setSecureKeys(data)
     }
 
-    fetchSecureKeys()
+    //fetchSecureKeys()
 
   }, [])
 
-  // display the splash screen for 1 second...
-  setTimeout(async () => {
-    await SplashScreen.hideAsync()
-  }, 2000)
+  useEffect(
+    () => {
+      async function checkStorageCredentials() {
+        try {
+          const storedCredentials = await SecureStore.getItemAsync('credentials')
+          if (storedCredentials) {
+            const mycredentials = JSON.parse(storedCredentials)
+            await signInWithEmailAndPassword(auth, mycredentials.email,mycredentials.password)
+          }
+        } catch (error) {
+            console.log(error)
+        }
+      }
+      checkStorageCredentials()
+    },
+    []
+)
 
-  const amit = () => {
-    Alert.alert('Model: ' + secureKeys?.name)
-  }
-
-  return (
-    <View style={styles.container}>
-      <Button
-        title="Press me"
-        onPress={() => amit()}
-      />
-      <StatusBar style="auto" />
-    </View>
-  )
+return (
+  <>
+    <StatusBar barStyle = 'light-content' hidden ={false} backgroundColor = '#1e5f6b' translucent ={true}/>
+    <StripeProvider publishableKey='pk_test_maRtZ2uTPZf2XpvUfAMCDcDd'>
+      <AuthNavigation/>
+    </StripeProvider>
+  </>
+)
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
-})
